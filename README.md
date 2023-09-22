@@ -2,11 +2,11 @@
 
 In EF Core 7.0, the table per concrete (also known as TPC) is a mapping strategy where each concrete class in an inheritance hierarchy maps to its table.
 
-![](https://i.imgur.com/8tpwWQn.jpeg)
+![](https://i.imgur.com/6UNwIHd.jpeg)
 
-![](https://i.imgur.com/OpVWe9f.jpeg)
+![](https://i.imgur.com/GuAobxA.jpeg)
 
-![](https://i.imgur.com/xmWDmUY.jpeg)
+![](https://i.imgur.com/ifU6EQU.jpeg)
 
 The TPC strategy is similar to the TPT strategy except that a different table is created for every concrete type in the hierarchy, but tables are not created for abstract types - hence the name “table-per-concrete-type”. 
 
